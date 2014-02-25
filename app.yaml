@@ -1,0 +1,8 @@
+application: yourapp
+version: 1-appengine-php-glob-issue
+runtime: php
+api_version: 1
+
+handlers:
+- url: /.*
+  script: test.php
